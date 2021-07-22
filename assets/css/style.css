@@ -78,7 +78,7 @@
     }
 
     .navigation-links ul li {
-      text-align: center;
+      text-align: left;
     }
   
     .navigation-links li a {
@@ -103,7 +103,7 @@
     width: 400px;
     height: 400px;
     left: 150px;
-    top: -100px;
+    top: -80px;
     background: #1A8FE3;
     opacity: 0.8;
     animation: wave 8s ease-in-out infinite;
