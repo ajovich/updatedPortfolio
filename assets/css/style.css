@@ -24,12 +24,14 @@
   
   .navigation-links li {
     list-style: none;
+    font-size: 14px;
+    /* text-transform: uppercase; */
   }
   
   .navigation-links li a {
     color: #100C08;
     display: block;
-    padding: 16px;
+    padding: 18px;
     text-decoration: none;
   }
   
