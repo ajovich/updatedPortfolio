@@ -1,0 +1,199 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    align-items: center; /* Lines up in center with name */ 
+    background-color: transparent;
+    color: white;
+    display: flex; /* Use flex to line up navigation side by side */
+    justify-content: space-between;
+    position: relative;
+}
+
+.navigation-links {
+    height: 100%;
+  }
+  
+  .navigation-links ul {
+    display: flex; /* Lines links up side by side */
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navigation-links li {
+    list-style: none; /* Removed list style, no underline, no bullets */
+  }
+  
+  .navigation-links li a {
+    color: white;
+    display: block;
+    padding: 16px;
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  .navigation-links li:hover {
+    background-color: #DA627D;
+    border-radius: 3px;
+    opacity: 0.75; /* Decreased opacity for hover effect */
+  }
+  
+  /* Hamburger menu for responsive web design */ 
+  .toggle-button {
+    flex-direction: column; /* Span line up on top of one another */
+    display: none; /* Prevents from showing by default, only want it to show when user 'clicks' in smaller screen size */
+    height: 20px;
+    justify-content: space-between;
+    position: absolute; /* Hamburger menu to right side of screen without messing with flow of other elements, element positioned absolutely to first positioned parent */
+    right: 16px; /* Allows space for hamburger menu to not be all the way at the right side of screen */
+    top: 12px; /* Allows space for hamburger menu to not be all the way at the top of the navigation bar */
+    width: 30px;
+  }
+  
+  /* Styles hamburger menu bars */
+  .toggle-button .bar {
+    background-color: white;
+    border-radius: 3px; 
+    height: 3px;
+    width: 100%;
+  }
+  
+  /* Media query when conditions inside are met (screen size <600px run the following code from lines 89-119. */
+  @media (max-width: 600px) {
+    .toggle-button {
+      display: flex;
+    }
+  
+    /* Links span 100% of screen */
+    .navigation-links {
+      display: none;
+      width: 100%;
+    }
+  
+    /* Change flex direction to column and align at top */
+    .navigation {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Stacks links top-bottom, links span 100% of menu */
+    .navigation-links ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    /* Centers text  */
+    .navigation-links ul li {
+      text-align: center;
+    }
+  
+    /* Anchor tags closer in space */
+    .navigation-links li a {
+      padding: 8px 16px;
+    }
+  
+    /* Hamburger menu activated by user when clicked on */
+    .navigation-links.active {
+      display: flex;
+    }
+  }
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.shape:nth-of-type(1) {
+    width: 400px;
+    height: 400px;
+    left: 150px;
+    top: -100px;
+    background: #1A8FE3;
+    opacity: 0.8;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.shape:nth-of-type(2) {
+    width: 800px;
+    height: 800px;
+    background: #E6C229;
+    position: absolute;
+    top: -200px;
+    left: -400px;
+    opacity: 0.9;
+    z-index: -1;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.shape:nth-of-type(3) {
+    width: 500px;
+    height: 500px;
+    background: #17E9E0;
+    position: absolute;
+    bottom: -25%;
+    right: -5%;
+    opacity: 0.9;
+    z-index: -1;
+    animation: wave 10s ease-in-out infinite;
+}
+
+.shape:nth-of-type(4) {
+    width: 250px;
+    height: 250px;
+    background: #6610F2;
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    opacity: 0.9;
+    z-index: -1;
+    animation: wave 8s ease-in-out infinite;
+}
+
+.shape:nth-of-type(5) {
+    width: 350px;
+    height: 350px;
+    background: #F17105;
+    position: absolute;
+    top: -8%;
+    right: 10%;
+    opacity: 0.9;
+    z-index: -1;
+    animation: wave 6s ease-in-out infinite;
+}
+
+.shape:nth-of-type(6) {
+    width: 100px;
+    height: 100px;
+    background: #D11149;
+    position: absolute;
+    top: 10%;
+    right: 68%;
+    opacity: 0.6;
+    z-index: -1;
+    animation: wave 6s ease-in-out infinite;
+    transform: rotate(10deg);
+}
+
+@keyframes wave {
+    0%, 100% {
+        border-radius: 66% 34% 37% 63% / 57% 31% 69% 43%
+    }
+    60% {
+        border-radius: 25% 75% 50% 50% / 25% 50% 45% 80%
+    }
+}
+
+.introductionTextTop {
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 80px;
+    margin: 100px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #100C08;
+}
