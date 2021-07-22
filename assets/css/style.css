@@ -25,6 +25,7 @@
   .navigation-links li {
     list-style: none;
     font-size: 14px;
+    font-weight: 600;
     /* text-transform: uppercase; */
   }
   
@@ -36,7 +37,7 @@
   }
   
   .navigation-links li:hover {
-    font-weight: 600;
+    font-weight: 700;
   }
   
   /* Hamburger menu for responsive web design */ 
@@ -92,6 +93,11 @@
       display: flex;
     }
   }
+
+.contactLinks {
+  text-align: center;
+  margin: -30px;
+}
 
 .wrapper {
     display: flex;
