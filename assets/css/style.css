@@ -299,14 +299,17 @@
 .portfolio__item {
   background: white;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 .portfolio__img {
   will-change: transform;
   transition: transform 450ms;
+  border-radius: 3px;
 }
 
 .portfolio__img:hover {
   transition: transform 125ms;
   transform: translateY(-10px);
+  border-radius: 3px;
 }
