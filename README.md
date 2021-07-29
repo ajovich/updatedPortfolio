@@ -29,9 +29,9 @@
 
 ## URL of Deployed Application
 
-* 
+* https://ajovich.github.io/updatedPortfolio/
 
 
 ## URL of GitHub Repository
 
-* 
+* https://github.com/ajovich/updatedPortfolio
