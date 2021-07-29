@@ -24,7 +24,7 @@
 
 * Click [here](https://drive.google.com/file/d/1irKlzIb7i2jPGobVLLAqWnS-ssDQ1lft/view?usp=sharing) for animation demonstration.
 
-* ![Portfolio Landing Page](assets/images/PortfolioLandingPage.png)
+![Portfolio Landing Page](assets/images/PortfolioLandingPage.png)
 
 
 ## URL of Deployed Application
