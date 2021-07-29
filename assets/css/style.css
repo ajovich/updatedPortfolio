@@ -152,7 +152,6 @@
   left: 150px;
   top: -80px;
   background: #1A8FE3;
-  opacity: 0.8;
   animation: wave 8s ease-in-out infinite;
 }
 
@@ -163,7 +162,6 @@
   position: absolute;
   top: -200px;
   left: -400px;
-  opacity: 0.9;
   z-index: -1;
   animation: wave 8s ease-in-out infinite;
 }
@@ -175,7 +173,6 @@
   position: absolute;
   bottom: -25%;
   right: -5%;
-  opacity: 0.9;
   z-index: -1;
   animation: wave 10s ease-in-out infinite;
 }
@@ -187,7 +184,6 @@
   position: absolute;
   bottom: -120px;
   left: 50%;
-  opacity: 0.9;
   z-index: -1;
   animation: wave 8s ease-in-out infinite;
 }
@@ -199,7 +195,6 @@
   position: absolute;
   top: -8%;
   right: 10%;
-  opacity: 0.9;
   z-index: -1;
   animation: wave 6s ease-in-out infinite;
 }
@@ -211,7 +206,6 @@
   position: absolute;
   top: 10%;
   right: 68%;
-  opacity: 0.6;
   z-index: -1;
   animation: wave 6s ease-in-out infinite;
   transform: rotate(10deg);
@@ -231,26 +225,25 @@
 .aboutMe {
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 @media (min-width: 600px) {
   .aboutMe {
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 1fr 400px;
     grid-template-areas: 
       "title img"
       "subtitle img"
       "text img";
-    grid-column-gap: 2em;
+    grid-column-gap: 20px;
   }
 
   .sectionTitleAbout {
     grid-area: title;
     position: relative;
-    left: -2em;
-    width: calc(100%);
-    padding-left: 2em;
-    padding-right: calc(200px);
+    left: -20px;
+    padding-left: 20px;
   }
 
   .sectionSubTitle {
@@ -261,8 +254,36 @@
   .aboutMeImage {
     grid-area: img;
     position: relative;
-    z-index: 2;
   }
+}
+
+.sectionTitleAbout {
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 60px;
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.sectionSubTitle {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.aboutMeBody {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.aboutMeImage {
+  padding-top: 60px;
+  border-radius: 3px;
 }
 
 /* Start of projects styling */
@@ -270,6 +291,7 @@
   color: black;
   text-align: center;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .sectionTitle {
@@ -312,4 +334,12 @@
   transition: transform 125ms;
   transform: translateY(-10px);
   border-radius: 3px;
+  opacity: .75;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
