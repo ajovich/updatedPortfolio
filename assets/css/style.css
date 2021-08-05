@@ -254,6 +254,8 @@
   .aboutMeImage {
     grid-area: img;
     position: relative;
+    width: 400px;
+    clip-path: circle();
   }
 }
 
