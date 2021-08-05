@@ -2,29 +2,37 @@
 
 ## Description
 
-* This is my second updated portfolio with links to my updated Linkedin and GitHub accounts. 
+* This is my third portfolio update. For this update:
+
+    * I added icons with links to my updated Linkedin, GitHub account, and developer gmail. 
+
+    * I added a link on the navigation with an updated resume.
+
+    * I updated my biography and added a portfolio photo of myself. 
 
 * I completely renovated my portfolio page from my initial submission. I wanted to experiment with incorporating animation and motion design, while keeping the style minimalistic with a bold color palette. 
 
-* For the final submission, I need to: add in a biography, and a professional-looking (non-selfie) picture in the 'about' section. I plan on working on the landing page a bit more, as I am finding out I prefer CSS grid > Flexbox and am not satisfied with the way the font is laid out.   
+* I will probably adjust the landing page a bit more from here on out, as I am not satisfied with how the blobs line up on mobile. The hamburger navigation bar also still needs a bit of work. 
 
 
 ## Core Objectives Met
 
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
+* Updated portfolio featuring at least 3 examples of student work from either deployed projects of homeworks.
 
-* Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+* Update GitHub profile with pinned repositories featuring at least 3 examples of student work from either deployed projects of homeworks. Including biography, developer e-mail, and link to deployed portfolio, 2 pinned repositories with README.md and MIT license. 
 
-* Submit an updated resume.
+* Updated resume.
 
-* Submit an updated LinkedIn profile.
+* Updated LinkedIn profile.
 
 
 ## Animation & Images
 
-* Click [here](https://drive.google.com/file/d/1irKlzIb7i2jPGobVLLAqWnS-ssDQ1lft/view?usp=sharing) for animation demonstration.
+* Click [here](https://drive.google.com/file/d/1irKlzIb7i2jPGobVLLAqWnS-ssDQ1lft/view?usp=sharing) for animation demonstration (from my second portfolio update)
 
 ![Portfolio Landing Page](assets/images/PortfolioLandingPage.png)
+
+![About Me Page](assets/images/aboutMePage.png)
 
 
 ## License
