@@ -337,6 +337,13 @@
   opacity: .75;
 }
 
+.imageDescription {
+  text-decoration: none;
+  color: #100C08;
+  position: relative;
+  text-align: center;
+}
+
 .center {
   position: absolute;
   top: 50%;
