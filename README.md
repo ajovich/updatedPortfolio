@@ -32,7 +32,11 @@
 
 ![Portfolio Landing Page](assets/images/PortfolioLandingPage.png)
 
+![Updated Landing Page - 3rd Update](assets/images/UpdatedLandingPage3.png)
+
 ![About Me Page](assets/images/aboutMePage.png)
+
+
 
 
 ## License
